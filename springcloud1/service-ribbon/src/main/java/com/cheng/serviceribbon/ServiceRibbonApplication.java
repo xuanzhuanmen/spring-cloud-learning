@@ -11,7 +11,7 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 //向服务中心注册
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 //表明是注册中心Eureka的客户端
 @EnableEurekaClient
 //开启断路器Hystrix
